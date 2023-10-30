@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    <form action="process.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+            <option value="science">Science</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
